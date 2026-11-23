@@ -1,0 +1,25 @@
+# environments
+.venv/
+venv/
+env/
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# data: the Kaggle file is small, but keep the repo clean and let people download it themselves
+data/data.csv
+data/*.zip
+
+# models: keep the final model so the dashboard works right after cloning
+# (models/hospital_model.pt, models/scaler.pkl and models/best_config.json are committed)
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json

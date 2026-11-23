@@ -1,0 +1,13 @@
+{
+  "experiment": "4. Early stopping",
+  "config": {
+    "hidden": 256,
+    "dropout": 0.3,
+    "lr": 0.001,
+    "weight_decay": 0.05,
+    "patience": 20,
+    "max_epochs": 200,
+    "scaling": true
+  },
+  "final_epochs": 75
+}
